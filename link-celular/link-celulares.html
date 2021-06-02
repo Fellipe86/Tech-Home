@@ -1,0 +1,53 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>TechHome - Informática e Telefonia</title>
+		<link rel="stylesheet" type="text/css" href="estilo-celular.css"/>
+		<script>
+            b=0
+            function slideshow()
+            {
+                switch (b)
+                {
+                    case 0:celSlide.src="cel1.jpg";
+                        break;
+                    case 1:celSlide.src="cel2.jpg";
+                        break;
+                    case 2:celSlide.src="cel3.jpg";
+                        break;
+                    case 4:celSlide.src="cel4.jpg";
+                        b=-1;
+                }
+                b++;
+            }
+		</script>
+	</head>
+	<body id="teste4" onLoad="setInterval('slideshow()',1000)";>
+		<div id="corpo4">
+				<hgroup>
+				<header id="cabecalho">
+					<h1>Tech Home</h1>
+					<h2>Sua Assistência Técnica em casa</h2>
+			</hgroup>
+			<figure><img id="logo" src="logo-marca.png"></figure>
+					
+					<h1>Celulares</h1>
+					<img src="cel1.jpg.jpg" name="celSlide" id="celFoto">
+<br/>
+			<br/>
+			<br/>
+					<h2>Assistência Técnica Celular Perto de Você.</h2>
+					<p>Assistência técnica celular – Se o seu celular caiu, quebrou a tela ou foi danificado por algum outro acidente, não se desespere e não desista do seu aparelho.</p>
+
+					<p>Aqui na Assistência técnica <b>Tech Home</b> resolvemos com eficácia a maioria dos problemas. Temos uma equipe de ponta e laboratórios equipados para o conserto e a manutenção do seu aparelho.</p>
+
+					<p>Somos a maior e melhor Assistência técnica celular  no Rio de Janeiro. temos a missão de oferecer serviços com excelente qualidade.</p>
+					<nav id="menu">
+           					<ul>
+								<li><a href="../Pagina 1.html">VOLTAR</a></li>
+							</ul>
+					</nav>
+		</div>
+	</body>
+</html>
